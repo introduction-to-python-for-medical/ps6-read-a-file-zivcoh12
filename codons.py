@@ -10,5 +10,3 @@ def create_codon_dict(file_path):
     amino_acid = row[2]
     mapping[codon] = amino_acid
   return mapping
-
-
