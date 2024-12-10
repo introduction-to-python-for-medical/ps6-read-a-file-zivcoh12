@@ -1,5 +1,5 @@
 def create_codon_dict(file_path):
-   amino_acid_dict = {}
+ amino_acid_dict = {}
     with open(file_path, 'r') as file:
         for line in file:
             cells = line.strip().split('\t')
